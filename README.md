@@ -5,8 +5,8 @@ Django Project Template with minimal requirements
 
 ## Requirements
 
-python 3.11
-Django 4.1.5
+* python 3.11
+* Django 4.1.5
 
 
 ## Docker build and run
