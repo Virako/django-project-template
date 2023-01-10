@@ -15,3 +15,9 @@ Django 4.1.5
 make build
 make run
 ```
+
+## Activate pre-commit
+
+```
+pre-commit install
+```
