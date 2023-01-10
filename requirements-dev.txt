@@ -1,0 +1,6 @@
+-r requirements.txt
+django-stubs==1.13.1
+mypy==0.991
+prospector==1.8.3
+pytest==7.2.0
+pytest-django==4.5.2
