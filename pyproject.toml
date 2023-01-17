@@ -7,6 +7,7 @@ lines_after_imports = 2
 
 [tool.pytest.ini_options]
 django_find_project = true
+addopts = "--ds=config.settings"
 python_files = [
     "**/*_test*.py",
     "**/tests.py",
@@ -14,7 +15,10 @@ python_files = [
 ]
 
 [tool.mypy]
-plugins = ["mypy_django_plugin.main"]
+plugins = [
+    "mypy_django_plugin.main",
+    "mypy_drf_plugin.main",
+]
 
 [tool.django-stubs]
 django_settings_module = "config.settings"

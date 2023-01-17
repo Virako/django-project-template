@@ -1,5 +1,6 @@
 -r requirements.txt
 django-stubs==1.13.1
+djangorestframework-stubs==1.8.0
 mypy==0.991
 prospector==1.8.4
 pytest==7.2.0
